@@ -34,3 +34,32 @@ What's covered
 Bar plots, histograms, scatter plots, and box plots with matplotlib
 Adding clinical reference lines (e.g. GCS ≤ 8, bradycardia/tachycardia thresholds)
 Saving and sharing plots
+
+# Day 4 — Vital Sign Write-up
+CariSurg MedTech Pathways | Mercer General Hospital
+A short plain-language write-up on one vital sign from the Mercer General triage dataset.
+Task
+Pick one vital sign (pulse, temperature, respiratory rate, SBP, or SpO2) and write one paragraph covering:
+
+- What it is
+- What the normal range looks like
+- Why a triage nurse would care
+
+
+# Day 5 — Other Metrics Write-up
+CariSurg MedTech Pathways | Mercer General Hospital
+A short reflective paragraph on clinical metrics that exist beyond the Mercer General triage dataset and why they matter.
+Task
+Write one paragraph covering metrics not included in the current dataset — what they are, why they are clinically relevant at triage, and what their absence means for our analysis.
+
+
+# Day 6 — At-Risk Patient Logic Pseudocode
+CariSurg MedTech Pathways | Mercer General Hospital
+Pseudocode for a function that evaluates a patient's pulse and flags them as at-risk if their reading falls outside a defined safe range.
+Logic
+
+Critical Low: pulse < 20 bpm — near-absent cardiac output
+Normal: 20–250 bpm — functional range covering athletic and paediatric cases
+Critical High: pulse > 250 bpm — exceeds survivable arrhythmia rates
+
+Thresholds are set at extremes to minimise false positives. Standard bradycardia (<60 bpm) and tachycardia (>100 bpm) are candidates for a secondary warning tier.
