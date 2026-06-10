@@ -63,3 +63,6 @@ Normal: 20–250 bpm — functional range covering athletic and paediatric cases
 Critical High: pulse > 250 bpm — exceeds survivable arrhythmia rates
 
 Thresholds are set at extremes to minimise false positives. Standard bradycardia (<60 bpm) and tachycardia (>100 bpm) are candidates for a secondary warning tier.
+
+Week 1 
+
