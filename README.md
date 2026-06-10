@@ -1,5 +1,6 @@
 # carisurg-portfolio
-Week 0 · 
+# Week 0 
+
 # DAY 1 — Environment Setup & Gender Column Cleaning
 CariSurg MedTech Pathways | Mercer General Hospital
 A hands-on intro to Python and data cleaning using a dirty emergency triage dataset. Trainees set up Google Colab, learn the basics, and standardise the Gender column as their Day 1 challenge.
@@ -64,5 +65,11 @@ Critical High: pulse > 250 bpm — exceeds survivable arrhythmia rates
 
 Thresholds are set at extremes to minimise false positives. Standard bradycardia (<60 bpm) and tachycardia (>100 bpm) are candidates for a secondary warning tier.
 
-Week 1 
+# Week 1 
 
+The Week 1 deliverable is a preliminary research proposal for a 12-week pilot at Mercer General Hospital testing whether AI can improve emergency department triage in a Caribbean context.
+
+What was done:
+Five recent papers on AI-assisted ED triage were reviewed and summarised across four dimensions — problem, method, outcome, and limitation. Two gaps were identified from the literature: no existing AI triage model has been validated on Caribbean patient data, and no equity evidence exists for AI triage in resource-constrained settings. These gaps anchor a proposed pilot that retrains the TriageIntelli stacking ensemble on de-identified Mercer ED records and measures whether inter-rater triage disagreement drops by at least 15%.
+
+Outputs produced: a filled preliminary proposal (.docx), a plain literature summary (.pdf), and a GitHub README (.md) — all consistent with the rubric criteria and project brief.
