@@ -1,0 +1,26 @@
+# config.yaml
+# One decision, one model, one set of hyperparameters.
+# This is the Week 7 pinned model — see docs/model-selection.md for the
+# full comparison and docs/decisions/2026-week-7-model-choice.md for the
+# reasoning behind picking this one over the tuned Random Forest and MLP.
+
+data:
+  path: "data/yaleemmlc_admissionprediction_triage.csv"
+  target: "esi"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  engineered: true   # applies src/features.py::add_clinical_features()
+
+model:
+  name: "gradient_boosting"     # must match a key in src/model.py::_BUILDERS
+  params:
+    max_depth: 6
+    learning_rate: 0.1
+    max_iter: 300
+    class_weight: "balanced"
+    random_state: 42
+
+output:
+  model_path: "models/gradient_boosting_v1.joblib"
