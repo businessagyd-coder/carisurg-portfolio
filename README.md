@@ -74,19 +74,7 @@ Five recent papers on AI-assisted ED triage were reviewed and summarised across 
 
 Outputs produced: a filled preliminary proposal (.docx), a plain literature summary (.pdf), and a GitHub README (.md) — all consistent with the rubric criteria and project brief.
 
-# CariSurg MedTech Pathways 2026 — Project README
 
-**Project:** AI-assisted triage validation for a fictional Caribbean emergency
-department (Mercer General Hospital), using the Yale EMMLC ED triage dataset.
-**Supervisor:** Dr De Freitas · **Clinical reviewer:** Dr Reyes · **Clinical IT
-Lead:** Martina Griffith
-**Author:** Aiden Daniel
-
-> Note on how this document was compiled: built from saved project memory plus
-> full detail from this chat's Weeks 6–8 work — not a live search of every past
-> conversation. If something from Weeks 2–5 is thin or missing below, it's
-> because it wasn't captured in a memory note at the time, not because it
-> didn't happen.
 
 ---
 
