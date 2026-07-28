@@ -222,3 +222,21 @@ data/*.csv
    __pycache__/
    *.pyc
    .pytest_cache/
+
+# Patient-level data must never be committed to this (public) repository.
+data/*.csv
+
+# Saved model binaries — regeneratable via scripts/train.py, no reason to
+# bloat the repo with them.
+models/*.joblib
+
+# Python housekeeping
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Common editor/OS cruft
+.DS_Store
+.vscode/
+.idea/
